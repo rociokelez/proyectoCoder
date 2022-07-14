@@ -107,9 +107,10 @@ p{
 	grid-template-columns: 50% 50%;
 }
 
-nav{
+#navIndex{
 	grid-area: nav;
 }
+
 
 header{
 	padding: 5%;
@@ -136,6 +137,31 @@ footer{
 	align-content: center;
 }
 
+#carruselAlan{
+	width: 80%;
+    padding: 20%;
+    margin: 5px;
+    border: none;
+    align-content: center;
+}
+
+#carruselCami{
+	width: 80%;
+    padding: 20%;
+    margin: 5px;
+    border: none;
+    align-content: center;
+}
+
+
+#carruselDani{
+	width: 80%;
+    padding: 20%;
+    margin: 5px;
+    border: none;
+    align-content: center;
+}
+
 .sectionIndex{
 	padding: 20%;
 	margin: 3px;
@@ -147,10 +173,10 @@ footer{
 #quienesSomosGrid{
 	display: grid;
 	grid-template-areas: 
-	"nav nav "
+	"nav nav"
 	"section main"
 	"footer footer";
-	grid-template-columns: auto, auto;
+	grid-template-columns: 50% 50%;
 }
 
 #navqsi{
@@ -177,7 +203,7 @@ footer{
 #contactoGrid{
 	display: grid;
 	grid-template-areas: 
-	"nav nav "
+	"nav nav"
 	"header header"
 	"main section"
 	"footer footer";
@@ -225,7 +251,6 @@ footer{
 		border: none;
 		align-content: center;
 	}
-	
 	.sectionIndex{
 		padding: 10%;
 		margin: 3px;
