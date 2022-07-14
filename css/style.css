@@ -322,4 +322,20 @@ footer{
 iframe{
 	width: 100%;
 	height: 100%;
-}
+} 
+
+h1 {
+	animation-duration: 2s;
+	animation-name: animacion;
+	animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes animacion {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+ }
