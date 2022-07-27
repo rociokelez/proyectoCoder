@@ -1,0 +1,142 @@
+@import "../scss/vars";
+@import "../scss/fonts";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow-x: hidden;
+	font-family: $tipografiaPrincipal;
+}
+html{
+	font-size: 62.5%;
+}
+
+
+h1,h2{
+	color: $colorPrincipal;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 5%;
+}
+
+h2{
+	font-size: 2rem;
+	text-align: center;
+}
+
+p{
+	font-size: 1.5rem;
+	line-height: 2rem;
+	color:$colorPrincipal;
+	text-align: center;
+}
+
+.logoPrincipal{
+	height: 110px;
+	width: 90px;
+}
+
+.mapa{
+	height: 34vh;
+	width: 47vw;
+	margin: 5px;
+	align-items: center;
+}
+
+
+.fondo{
+	background-color:$colorSecundario;
+}
+
+.contenedor{
+     padding: 5%;
+	 padding-bottom: 10%;
+	 margin: none;
+}
+
+
+#indexGrid {
+	display: grid;
+	grid-template-areas: 
+	"nav nav "
+	"header header"
+	"section main"
+	"footer footer";
+	grid-template-columns: 50% 50%;
+}
+
+
+header{
+	padding: 5%;
+	grid-area: header;
+}
+
+main{
+	grid-area: main;
+}
+
+section{
+	grid-area: section;
+}
+
+.sectionIndex{
+	padding: 20%;
+	margin: 3px;
+	border: none;
+	align-content: center;
+}
+
+
+#quienesSomosGrid{
+	display: grid;
+	grid-template-areas: 
+	"nav nav "
+	"section main"
+	"footer footer";
+	grid-template-columns: auto, auto;
+}
+
+#navqsi{
+	grid-area: nav;
+}
+
+#sectionqsi{
+	grid-area: section;
+	padding: 20%;
+	display: flex;
+	align-items: center;
+}
+
+#mainqsi{
+	grid-area: main;
+	padding: 20%;
+	align-content: center;
+}
+
+#contactoGrid{
+	display: grid;
+	grid-template-areas: 
+	"nav nav "
+	"header header"
+	"main section"
+	"footer footer";
+	grid-template-columns: 50% 50%;
+}
+
+#tituloContacto{
+	grid-area: header;
+}
+
+#mainContacto{
+	grid-area: main;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mapaContacto{
+	grid-area: section;
+}

@@ -1,0 +1,56 @@
+@import "../scss/vars";
+@import "../scss/fonts";
+
+.navegador{
+	background-color: $colorPrincipal;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	 ul {
+		display: flex;
+	justify-content: space-around;
+	list-style: none;
+	    li a{
+		padding: 1em;
+	font-size: 1.5rem;
+	color:$tercerColor;
+	text-decoration: none;
+	   }
+	 }
+}
+
+nav{
+	grid-area: nav;
+}
+
+.nav-link{
+	color: $tercerColor;
+	font-size: 1.5rem;
+}
+
+#navIndex{
+	grid-area: nav;
+}
+
+#navContacto{
+	grid-area: nav;
+}
+
+
+.navbar{
+background-color: $colorPrincipal;
+}
+
+.navbar-toggler{
+	background-color:$colorSecundario;
+
+}
+
+.dropdown-menu{
+	background-color: $colorPrincipal;
+}
+
+.dropdown-item{
+    font-size: 1.5rem;
+	color: $tercerColor;
+}
