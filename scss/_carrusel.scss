@@ -14,22 +14,17 @@
 }
 
 #carruselAlan{
-    width: 44%;
-    margin: 20px auto;
-    border: none;
-    align-content: center;
+    @extend .carrusel;
 }
 
 #carruselCami{
-    width: 44%;
-    margin: 20px auto;
-    border: none;
-    align-content: center;
+    @extend .carrusel;
 }
 
 #carruselDani{
-    width: 44%;
-    margin: 20px auto;
-    border: none;
-    align-content: center;
+    @extend .carrusel;
+}
+
+.carousel-item{
+    height: 600px;
 }

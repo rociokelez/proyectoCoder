@@ -1,0 +1,8 @@
+@import "_fonts";
+
+@mixin texto ($fontsize, $lineheight, $textalign) {
+    font-size: $fontsize;
+    line-height: $lineheight;
+    text-align: $textalign;
+    font-family: $tipografiaPrincipal;
+}

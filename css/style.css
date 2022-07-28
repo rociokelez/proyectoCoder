@@ -4,6 +4,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.carrusel, #carruselDani, #carruselCami, #carruselAlan {
+  width: 44%;
+  margin: 20px auto;
+  border: none;
+  align-content: center;
+}
+
 .navegador {
   background-color: #125b50;
   display: flex;
@@ -56,6 +65,13 @@ nav {
   color: #f8b400;
 }
 
+.carrusel, #carruselDani, #carruselCami, #carruselAlan {
+  width: 44%;
+  margin: 20px auto;
+  border: none;
+  align-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -85,8 +101,9 @@ h2 {
 p {
   font-size: 1.5rem;
   line-height: 2rem;
-  color: #125b50;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #125b50;
 }
 
 .logoPrincipal {
@@ -192,25 +209,8 @@ section {
   align-items: center;
 }
 
-#carruselAlan {
-  width: 44%;
-  margin: 20px auto;
-  border: none;
-  align-content: center;
-}
-
-#carruselCami {
-  width: 44%;
-  margin: 20px auto;
-  border: none;
-  align-content: center;
-}
-
-#carruselDani {
-  width: 44%;
-  margin: 20px auto;
-  border: none;
-  align-content: center;
+.carousel-item {
+  height: 600px;
 }
 
 .footer {
@@ -220,7 +220,7 @@ section {
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
-  color: #f8b400;
+  color: #125b50;
   background-color: #125b50;
 }
 

@@ -1,5 +1,7 @@
 @import "../scss/vars";
 @import "../scss/fonts";
+@import "_mixin";
+@import "_extend";
 
 *{
 	margin: 0;
@@ -28,11 +30,9 @@ h2{
 }
 
 p{
-	font-size: 1.5rem;
-	line-height: 2rem;
-	color:$colorPrincipal;
-	text-align: center;
-}
+	@include texto (1.5rem, 2rem, center);
+	color: $colorPrincipal;
+}	
 
 .logoPrincipal{
 	height: 110px;
